@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#013f2e" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <title>Acesso reservado — Raio-X Gracos</title>
+  <link rel="icon" href="./assets/gracos-logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./login.css" />
+  <script src="./login.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="login-story">
+      <img src="./assets/gracos-logo-footer.svg" alt="Gracos Seguros" />
+      <div>
+        <span>GRACOS × MULTIPLIX</span>
+        <h1>O próximo ciclo começa com <em>clareza.</em></h1>
+        <p>Um diagnóstico visual sobre a base construída, o gargalo atual e as alavancas para transformar reputação em crescimento previsível.</p>
+      </div>
+      <small>Conteúdo reservado · compartilhado exclusivamente com a Gracos</small>
+    </section>
+
+    <section class="login-access">
+      <div class="access-card">
+        <div class="access-mark"><img src="./assets/multiplix-symbol.jpg" alt="" /></div>
+        <span>ACESSO AO RAIO-X</span>
+        <h2>Entre para explorar o diagnóstico.</h2>
+        <p>Use a senha compartilhada com você.</p>
+        <form id="loginForm" novalidate>
+          <label for="password">Senha</label>
+          <div class="password-row">
+            <input id="password" name="password" type="password" autocomplete="current-password" required autofocus />
+            <button id="togglePassword" type="button" aria-label="Mostrar senha">Mostrar</button>
+          </div>
+          <button class="submit" type="submit">Acessar o Raio-X</button>
+          <p class="message" id="formMessage" role="alert" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
