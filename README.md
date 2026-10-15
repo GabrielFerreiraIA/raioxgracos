@@ -2,6 +2,8 @@
 
 Entrega visual construída a partir da reunião de diagnóstico entre Fernando Tavares Junior e a Multiplix.
 
+A experiência segue a identidade visual da Multiplix; a Gracos aparece como a empresa analisada no diagnóstico.
+
 ## Conteúdo
 
 - Base e diferenciais já consolidados pela Gracos.
